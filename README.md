@@ -1,6 +1,9 @@
-# loony-bin
+# loonybin
 
 Inmates Running the Asylum
+This program works under Linux.
+It manages loony.cpp.
+usage:  $ ./loonybin 30    // enter a number of loonies to be created (e.g. 30)
 
 This program involves using the Unix process management primitives. You are given a dangerous program loony.cpp. The loony program is rather unstable. Mostly it sleeps, but when it does wake up, it tries to throw something at one of it's siblings (with a Unix signal), after which it may do something else deadly stupid (division by zero or illegal memory reference). The program  manages a set of five loonies. The program creates five loony processes, each with its own name (pick any five names you like). It then maintains a collection of five by replacing ones that die. The program reports each demise and its cause. The program takes a single number on the command line and runs until it has started that number of loonies. It then waits for the existing five loonies to die and exits. It then reports the number of creations and terminations, which should be the same. If the command-line parameter is omitted, create fifty loonies; if the command line specifies less than 5, create five. The program should look like: (By Dr. Bennet)
 
