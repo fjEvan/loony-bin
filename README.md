@@ -1,6 +1,6 @@
 # loonybin
 
-Inmates Running the Asylum
+Inmates Running the Asylum. 
 This program works under Linux.
 It manages loony.cpp.
 usage:  $ ./loonybin 30    // enter a number of loonies to be created (e.g. 30)
