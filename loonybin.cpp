@@ -1,5 +1,5 @@
 // 20171006  Jiao Feng (Evan)  loonybin
-// a program managing loony.cpp 
+// a program managing loony.cpp, works in Linux
 
 #include <unistd.h>
 #include <sys/types.h>
